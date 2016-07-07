@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Domein Jeugdhulp" id="88f3bcad" version="3.1.1">
+  <folder name="Business" id="879045a3" type="business">
+    <element xsi:type="archimate:BusinessRole" id="1d27cab1" name="Jeugdhulpaanbieder"/>
+    <element xsi:type="archimate:BusinessObject" id="78a19ed9" name="Perpectiefplan"/>
+    <element xsi:type="archimate:BusinessProcess" id="c9d88e3c" name="Woonplaats bepalen">
+      <documentation>Van belang omdat de woonplaats van de jeugdige bepaalt welke gemeente de rekening zal betalen</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="e9a5be20" name="Verwijzer"/>
+    <element xsi:type="archimate:BusinessObject" id="d29106e4" name="Toewijzing"/>
+    <element xsi:type="archimate:BusinessActor" id="3287592a" name="Vecozo"/>
+    <element xsi:type="archimate:BusinessActor" id="9371d730" name="Inlichtingenbureau"/>
+    <element xsi:type="archimate:BusinessObject" id="9783c01c" name="Verwijzing">
+      <documentation>... van een Verwijzer voor een Jeugdige voor een bepaalde vorm van Jeugdhulp.</documentation>
+    </element>
+    <element xsi:type="archimate:BusinessRole" id="01aad33c" name="Jeugdige"/>
+    <element xsi:type="archimate:BusinessRole" id="d0a4dd84" name="Gezin"/>
+    <element xsi:type="archimate:BusinessObject" id="585f0567" name="Verzoek om Toewijzing"/>
+    <element xsi:type="archimate:BusinessEvent" id="b89718b5" name="Jeugdige wordt 18"/>
+    <element xsi:type="archimate:BusinessRole" id="7ba16ef2" name="Hoofdaannemer"/>
+    <element xsi:type="archimate:BusinessRole" id="dc04d725" name="Onderaannemer"/>
+  </folder>
+  <folder name="Application" id="8872d19b" type="application">
+    <element xsi:type="archimate:ApplicationComponent" id="66f36a23" name="Gemeentelijk Gegevensknooppunt"/>
+    <element xsi:type="archimate:DataObject" id="5b1c31d4" name="iJW301"/>
+    <element xsi:type="archimate:DataObject" id="847c4407" name="iJW315"/>
+  </folder>
+  <folder name="Technology" id="830a3777" type="technology"/>
+  <folder name="Motivation" id="56c7c2ba" type="motivation">
+    <element xsi:type="archimate:Driver" id="97ebe0ce" name="Preventie"/>
+    <element xsi:type="archimate:Driver" id="0d272445" name="Signalering"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="4beb4737" type="implementation_migration"/>
+  <folder name="Connectors" id="befb7221" type="connectors"/>
+  <folder name="Relations" id="c66d47c9" type="relations"/>
+  <folder name="Views" id="055338a0" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="08b228e5" name="Default View"/>
+  </folder>
+  <purpose>Deze domeinarchitectuur is bedoeld om overzicht te bieden op en inzicht te bieden in het gemeentelijke Jeugdhulp domein. De domeinarchitectuur bevat modellen en beschrijvingen van de huidige situatie van 2016, en ontwerpplaten van een doelsituatie van ongeveer 2020. Behandeld worden de verschillende taken en verantwoordelijkheden in de Jeugdketen, de produkten en diensten van de verschillende partijen, de processen achter de taken, verantwoordelijkheden, produkten en diensten, en de benodigde informatievoorziening en infrastructuur.&#xD;
+&#xD;
+De modellen zijn tot stand gekomen op basis van een serie gesprekken met betrokkenen vanuit alle teams van de afdeling Jeugd in de tweede helft van 2016.&#xD;
+&#xD;
+In de 'Model Tree' linksboven staan onder 'Views' alle modellen en platen die gemaakt en gebruikt zijn.&#xD;
+&#xD;
+Bij iedere plaat kun je middels de functie 'Elements' (rechtsonder) voor ieder element de bijbehorende informatie (voorzover in het model opgenomen) openen.&#xD;
+&#xD;
+In de 'Model Tree' linksboven staan onder 'Model Content' alle componenten gesorteerd per categorie.</purpose>
+</archimate:model>
