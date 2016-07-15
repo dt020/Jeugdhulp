@@ -1,29 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Domein Jeugdhulp" id="88f3bcad" version="3.1.1">
   <folder name="Business" id="879045a3" type="business">
-    <element xsi:type="archimate:BusinessRole" id="1d27cab1" name="Jeugdhulpaanbieder"/>
-    <element xsi:type="archimate:BusinessObject" id="78a19ed9" name="Perpectiefplan"/>
+    <folder name="Taken en verantwoordelijkheden" id="009f520f">
+      <element xsi:type="archimate:BusinessFunction" id="fe1944a3" name="Beleidsvorming"/>
+      <element xsi:type="archimate:BusinessFunction" id="05f208ca" name="Sturing">
+        <documentation>Sturing op de hele keten van jeugdhulp, van preventie tot het gedwongen kader</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" id="fee5688c" name="Verantwoording">
+        <documentation>Het rapporteren naar belanghebbenden binnen en buiten de organisatie over&#xD;
+- de kosten en resultaten van de verleende ondersteuning&#xD;
+- volumes van ingezette ondersteuningsmiddelen&#xD;
+- de mate waarin de organisatie voldoet aan verplichtingen en afspraken&#xD;
+- en andere procesindicatoren en -kengetallen.&#xD;
+Het betreft hierbij altijd geaggregeerde informatie die niet terug te herleiden is tot individuele burgers, hulpverleners of ondersteuningstrajecten. Deze informatie dient onder andere als input voor beleidsmakers om de effectiviteit van hun beleidskeuzes te kunnen evalueren en zo nodig bij te stellen.&#xD;
+&#xD;
+Volgens https://www.visd.nl/sites/visd/files/Conceptindicatoren-gemeentelijke-monitor-sociaal-domein-juli-2014.pdf betreft het informatie over:&#xD;
+&#xD;
+• gebruik en kosten van de geboden sociale basisondersteuning&#xD;
+• gebruik en kosten van de geboden maatwerkvoorzieningen en hulpmiddelen&#xD;
+• zowel over de gehele gemeente als per wijk of buurt&#xD;
+• per type instelling&#xD;
+• uitgesplitst in PGB en Zorg in Natura&#xD;
+• totale gedeclareerde kosten per maatwerkarrangement/individuele voorziening&#xD;
+• totale gedeclareerde kosten per cliënt&#xD;
+• totaal gedeclareerde kosten per type instelling&#xD;
+• Totaal gedeclareerde kosten PGB/ZIN&#xD;
+• Totale geïnde eigen bijdrage per maatwerarrangement/individuele voorziening&#xD;
+• Gemiddelde duur gebruik maatwerkarrangement/individuele voorziening&#xD;
+• Intensiteit/omvang gedeclareerde maatwerkarrangementen/individuele voorziening&#xD;
+• Totaal aantal cliënten met een hulpmiddel per peildatum en per periode (onderzocht wordt of inzicht tussen aantal cliënten met beschikking en aantal cliënten met een hulpmiddel gewenst is)&#xD;
+• Totaal aantal verstrekte hulpmiddel en per peildatum en per periode&#xD;
+• Totale gedeclareerde kosten per type hulpmiddel&#xD;
+• Totale gedeclareerde kosten per cliënt&#xD;
+• Totale geïnde eigen bijdrage per type hulpmiddel&#xD;
+• Inzicht in meervoudige problematiek&#xD;
+• Inzicht in op- en afschaling&#xD;
+• Instroom cliënten naar type verwijzer&#xD;
+• Inzicht in wachtlijsten&#xD;
+• Cliëntervaring&#xD;
+</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" id="5ec9659f" name="Bekostiging"/>
+      <element xsi:type="archimate:BusinessFunction" id="2d9de2e1" name="Formele afhandeling">
+        <documentation>Waaronder:&#xD;
+- afhandelen van verzoeken om toewijzing&#xD;
+- het maken van beschikkingen&#xD;
+- betalen van facturen (of opdracht geven daarvoor)&#xD;
+- informeren van de SVB in het geval van PGB's&#xD;
+- informeren van het CAK in het geval van een eventuele eigen bijdrage&#xD;
+- afhandeling van verhuizingen en overlijdens&#xD;
+- ondersteuning van klachtafhandeling en bezwaar- en beroepszaken&#xD;
+- verzorgen van dashboards en rapportages&#xD;
+- voeden van het persoonlijke burgerportaal&#xD;
+</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" id="f9467ec3" name="Levering van jeugdhulp">
+        <documentation>Het leveren van jeugdhulp aan cliënten. Veelal uitbesteed aan ketenpartners.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" id="ccb6f777" name="Regievoering"/>
+      <element xsi:type="archimate:BusinessFunction" id="66e77bd8" name="Meldpunt Kindermishandeling en Huiselijk Geweld"/>
+      <element xsi:type="archimate:BusinessFunction" id="88d6361f" name="Onvrijwillig kader"/>
+      <element xsi:type="archimate:BusinessFunction" id="7238a7ba" name="Eerstelijnstaken">
+        <documentation>Eerstelijnstaken op het terrein van jeugdgezondheidszorg, jeugd- en opvoedhulp, JGGZ, J-(L)VB en welzijn</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessFunction" id="c7b90006" name="Tweedelijnstaken"/>
+      <element xsi:type="archimate:BusinessFunction" id="c6034456" name="Vroeginterventie bij risicokinderen"/>
+      <element xsi:type="archimate:BusinessFunction" id="d5416611" name="Volgen risicojongeren"/>
+      <element xsi:type="archimate:BusinessFunction" id="e5aa4a2f" name="Signalering"/>
+    </folder>
+    <folder name="Actoren en rollen" id="a538e831">
+      <element xsi:type="archimate:BusinessActor" id="a6af0306" name="Afdeling Jeugd">
+        <documentation>Afdeling van de RVE Onderwijs, Jeugd en Zorg.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessRole" id="de37a881" name="Gecertificeerde Instelling">
+        <documentation>Gecertificeerde instellingen (ook wel ‘GI’ genoemd) zijn instellingen die kinderbeschermings- en jeugdreclasseringsmaatregelen uitvoeren op basis van de Jeugdwet</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessRole" id="d0a4dd84" name="Gezin"/>
+      <element xsi:type="archimate:BusinessRole" id="7ba16ef2" name="Hoofdaannemer">
+        <documentation>Een Opdrachtnemer wordt pas Hoofdaannemer indien hij het nodig acht om voor het behalen van het resultaat/de resultaten derden in te schakelen. Hij is daarbij verplicht een of meerdere Onderaannemer(s) in te schakelen die voldoet /voldoen aan alle eisen die aan de hoofdaannemer zijn gesteld.&#xD;
+&#xD;
+De Hoofdaannemer neemt de verantwoordelijkheid om te doen wat nodig is om het resultaat voor het Gezin te behalen. Dat betekent feitelijk dat de ondersteuning (daar waar het gaat om Jeugdhulp) van het Gezin, conform de behoefte aan ondersteuning vastgelegd in het Perspectiefplan, wordt geleverd. De wijze waarop het resultaat wordt behaald is aan de Hoofdaannemer. </documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="9371d730" name="Inlichtingenbureau"/>
+      <element xsi:type="archimate:BusinessActor" id="19e60e1a" name="Jeugdbescherming Regio Amsterdam">
+        <documentation>Voorheen Bureau Jeugdzorg Agglomeratie Amsterdam.&#xD;
+&#xD;
+Zie http://www.jbra.nl/ .&#xD;
+&#xD;
+Beschrijving van KING: &quot;Bureau Jeugdzorg is een Nederlandse zorginstelling voor de jeugd met zowel vrijwillige zorg als verplichte hulpverlening en begeleiding. Bureau Jeugdzorg richt op:&#xD;
+- Kinderen en jongeren met opvoed- en opgroeiproblemen en hun ouders of verzorgers&#xD;
+- Kinderen en jongeren waarbij vermoedens zijn van kindermishandeling en hun ouders of verzorgers&#xD;
+&#xD;
+Bureau Jeugdzorg voert de onderstaande diensten uit:&#xD;
+- Diagnosticeren en indiceren voor jeugdzorg&#xD;
+- specialistische zorg&#xD;
+- AWBZ Voogdij&#xD;
+- Kinderbeschermingsmaatregelen&#xD;
+- Jeugdreclassering uitvoeren&#xD;
+- Zorg coördineren en veiligheid regisseren&#xD;
+- Vermoedens van kindermishandeling aanhoren, onderzoeken en melden bij de Raad voor de Kinderbescherming&quot;&#xD;
+&#xD;
+Zie http://www.gemmaonline.nl/index.php/Bureau_Jeugdzorg&#xD;
+Zie http://www.bureaujeugdzorg.info/&#xD;
+Zie http://www.bjaa.nl/ (Bureau Jeugdzorg Agglomeratie Amsterdam)</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessRole" id="1d27cab1" name="Jeugdhulpaanbieder"/>
+      <element xsi:type="archimate:BusinessActor" id="de80c4d8" name="Jeugdhulpinstellingen / Behandelaars"/>
+      <element xsi:type="archimate:BusinessRole" id="01aad33c" name="Jeugdige"/>
+      <element xsi:type="archimate:BusinessRole" id="dc04d725" name="Onderaannemer">
+        <documentation>De aanbieder van (Specialistische) Jeugdhulp die in Opdracht van de Hoofdaannemer handelingen verricht in een Gezin, op basis van het Behandelplan, teneinde een (vastgelegde) bijdrage te leveren aan het behalen van het daarin vastgelegde resultaat. De Hoofdaannemer is verantwoordelijk voor het maken van afspraken met en het betalen van de Onderaannemer en legt dit vast in een overeenkomst tussen beide partijen (inhoudelijk en financieel).</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="ff81668f" name="Ouder- en Kindteam">
+        <documentation>Samenwerkingsverband in de verschillende wijken bestaande uit Ouder- en Kind adviseurs.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="13bed527" name="Preventief Interventie Team">
+        <documentation>Volgens https://gezinsregistratie.nl/: &quot;Dit multidisciplinaire team wil kinderen die een verhoogd risico lopen op problemen in de sociale ontwikkeling, snel en vroegtijdig hulp bieden met als doel het risico op het ontwikkelen van ernstige gedragsproblemen te verkleinen. De teamleden komen uit verschillende voorzieningen/sectoren en werken onder regie van de gemeente Amsterdam. Het lukt het PIT om 98% van de risicogezinnen te bereiken. Onderzoek van de Universiteit leiden laat zien dat deze kinderen er in meerdere opzichten fors op vooruitgaan.&quot;</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="65e658a9" name="RVE Onderwijs, Jeugd en Zorg"/>
+      <element xsi:type="archimate:BusinessActor" id="54ad794c" name="Samen DOEN teams">
+        <documentation>Samenwerkingsverband in de verschillende buurten bestaande uit jeugdprofessionals en met name gericht op tweedelijns regievoerende taken. Integraal werkende teams bieden op buurtniveau hulp aan kwetsbare huishoudens met domein-overstijgende problematiek.&#xD;
+Het gaat om bevorderen eigen kracht (regie), voorkomen opstapeling van problemen en van hulp, inzetten van minder dure hulp, escalatie van problemen en terugval tegengaan.&#xD;
+In principe op vrijwillige basis maar steeds vaker ook drangsituaties.&#xD;
+Professional moet op de handen zitten.&#xD;
+Het huishouden maakt één plan en één hulpverlener is bij de uitvoering in charge (generalist in het huishouden én specialist in het team) &#xD;
+Meer communicatie, meer samenwerking.&#xD;
+Ondersteuning van een kring specialisten (b.v. gedragsdeskundige GGZ).&#xD;
+Vinger aan de pols na realisatie plan.&#xD;
+</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="3287592a" name="Vecozo"/>
+      <element xsi:type="archimate:BusinessActor" id="69f0aa1a" name="Veilig Thuis">
+        <documentation>Landelijke benaming van het regionale Advies- en Meldpunt Huiselijk Geweld en Kindermishandeling.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessRole" id="e9a5be20" name="Verwijzer">
+        <documentation>Persoon of instelling die op grond van de Jeugdwet jeugdigen en/of hun ouders verwijst naar (hoog)specialistische jeugdhulp.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="dfb4fe09" name="GGD Amsterdam"/>
+      <element xsi:type="archimate:BusinessActor" id="0e7a4ddf" name="Backoffice Jeugd"/>
+      <element xsi:type="archimate:BusinessActor" id="4071494a" name="Afdeling Zorg"/>
+      <element xsi:type="archimate:BusinessCollaboration" id="05c20cf8" name="Ouder- en Kindteams">
+        <documentation>Samenwerkingsverband in de verschillende wijken bestaande uit Ouder- en Kind adviseurs.</documentation>
+      </element>
+      <element xsi:type="archimate:BusinessActor" id="5a4c888e" name="Jeugdnetwerken stadsdelen"/>
+      <element xsi:type="archimate:BusinessCollaboration" id="d58301b5" name="Jeugdnetwerken stadsdelen"/>
+    </folder>
+    <element xsi:type="archimate:BusinessObject" id="78a19ed9" name="Perpectiefplan">
+      <documentation>Het document waarin de systematische Gezinsanalyse op verschillende levensgebieden (bijv. financiën, dagbesteding, onderwijs etc.) is vastgelegd met de omschrijving van de ondersteuningsbehoefte, een indeling in Profiel en Intensiteit, en de globale formulering van doelen die behaald dienen te worden.&#xD;
+&#xD;
+Het Perspectiefplan wordt door het Gezin zelf opgesteld, waarbij zij ondersteund worden door het Lokale Team, kan meerdere VOT’s bevatten en resulteert in één of meerdere Behandelplannen voor een Jeugdige uit dat Gezin.&#xD;
+&#xD;
+Het Perspectiefplan beschrijft wat een Gezin nodig heeft om op een volwaardige manier deel uit te kunnen maken van de samenleving. Het is bedoeld om de noodzakelijke ondersteuning en gewenste resultaten te onderbouwen. Het Perspectiefplan is (a) een integrale analyse en (b) een toeleiding naar de juiste ondersteuning. Het Perspectiefplan beschrijft het functioneren op alle levensgebieden die voor het Gezin van belang zijn. Het Perspectiefplan wordt door het Gezin (eventueel met hulp van het Lokale Team) opgesteld en vervolgens geaccordeerd door het Lokale Team. Het dient als onderlegger voor de Opdracht aan Opdrachtnemers.</documentation>
+    </element>
     <element xsi:type="archimate:BusinessProcess" id="c9d88e3c" name="Woonplaats bepalen">
       <documentation>Van belang omdat de woonplaats van de jeugdige bepaalt welke gemeente de rekening zal betalen</documentation>
     </element>
-    <element xsi:type="archimate:BusinessRole" id="e9a5be20" name="Verwijzer"/>
     <element xsi:type="archimate:BusinessObject" id="d29106e4" name="Toewijzing"/>
-    <element xsi:type="archimate:BusinessActor" id="3287592a" name="Vecozo"/>
-    <element xsi:type="archimate:BusinessActor" id="9371d730" name="Inlichtingenbureau"/>
     <element xsi:type="archimate:BusinessObject" id="9783c01c" name="Verwijzing">
       <documentation>... van een Verwijzer voor een Jeugdige voor een bepaalde vorm van Jeugdhulp.</documentation>
     </element>
-    <element xsi:type="archimate:BusinessRole" id="01aad33c" name="Jeugdige"/>
-    <element xsi:type="archimate:BusinessRole" id="d0a4dd84" name="Gezin"/>
-    <element xsi:type="archimate:BusinessObject" id="585f0567" name="Verzoek om Toewijzing"/>
+    <element xsi:type="archimate:BusinessObject" id="585f0567" name="Verzoek om Toewijzing">
+      <documentation>Interessante opmerking in het document 'Inkoopdocument Specialistische Jeugdhulp ': &quot;In 2018 wordt de regionale VOT gehanteerd tenzij JW 315 voor 1-1-2018 alsnog wordt geadopteerd&quot;. Er bestaat kennelijk een eigen variant.</documentation>
+    </element>
     <element xsi:type="archimate:BusinessEvent" id="b89718b5" name="Jeugdige wordt 18"/>
-    <element xsi:type="archimate:BusinessRole" id="7ba16ef2" name="Hoofdaannemer"/>
-    <element xsi:type="archimate:BusinessRole" id="dc04d725" name="Onderaannemer"/>
+    <element xsi:type="archimate:BusinessEvent" id="214ad496" name="Verhuizing"/>
+    <element xsi:type="archimate:BusinessEvent" id="c1ae5d46" name="Wijziging van gezag"/>
+    <element xsi:type="archimate:BusinessEvent" id="02dfce51" name="Overlijden"/>
+    <element xsi:type="archimate:Product" id="4d3f6a9e" name="Hoogspecialistische Jeugdhulp">
+      <documentation>Hoogspecialistische Jeugdhulp (ook wel: Segment C) betreft vormen van jeugdhulp die in ieder geval een van de volgende elementen bevat:&#xD;
+•	cruciale functies – het borgen van hoogspecialistische expertise en beschikbare voorzieningen,&#xD;
+•	vormen van jeugdhulp die qua tariefstelling niet passen binnen segment B, &#xD;
+•	intramurale en/of intensieve ambulante hulp en daarmee (bijna) altijd meervoudig van aard, dat wil zeggen vanuit meerdere domeinen binnen de jeugdhulp.&#xD;
+&#xD;
+Hoogspecialistische jeugdhulp in Segment C wordt gekenmerkt door een laag aantal Gezinnen, maar relatief hoge kosten per Jeugdige. Deze vorm van hulp zal in principe nooit door een lokaal Team worden uitgevoerd vanwege de complexiteit en/of de intramurale component. </documentation>
+    </element>
+    <element xsi:type="archimate:Product" id="97d82bb2" name="Specialistische Jeugdhulp">
+      <documentation>Specialistische Jeugdhulp (ook wel: Segment B) is	Jeugdhulp waarbij sprake is van specialismen en/of complexiteit. Dit segment wordt gekenmerkt door een groot aantal gezinnen, maar relatief lage kosten per jeugdige, dit in tegenstelling  tot hoogspecialistische jeugdhulp in segment C.&#xD;
+&#xD;
+De totale uitgave van de regio voor het inkopen van Specialistische Jeugdhulp in segment B bedraagt naar schatting 68 miljoen euro per jaar.</documentation>
+    </element>
+    <element xsi:type="archimate:Product" id="27c2b13f" name="Jeugdhulp">
+      <documentation>Jeugdhulp zoals bedoeld en omschreven in artikel 1 van de Jeugdwet</documentation>
+    </element>
+    <element xsi:type="archimate:Product" id="6303c0e3" name="Generieke jeugdhulp">
+      <documentation>Generieke Jeugdhulp (ook wel: Segment A) is bestrijkt de preventieve en (licht) ambulante jeugdhulpverlening, zoals bijvoorbeeld algemene vormen van opvoed- en Gezinsondersteuning.</documentation>
+    </element>
   </folder>
   <folder name="Application" id="8872d19b" type="application">
+    <folder name="Functionaliteit" id="eb704b8a">
+      <element xsi:type="archimate:ApplicationFunction" id="047890ba" name="Beheren klantprofiel"/>
+      <element xsi:type="archimate:ApplicationFunction" id="e040f8a1" name="Dashboards en rapportages"/>
+      <element xsi:type="archimate:ApplicationFunction" id="e0784a25" name="Data-analyse"/>
+      <element xsi:type="archimate:ApplicationFunction" id="6843fec3" name="Ondersteunen bestuurlijke besluitvorming"/>
+      <element xsi:type="archimate:ApplicationFunction" id="610b4f98" name="Registratie tbv afhandeling"/>
+      <element xsi:type="archimate:ApplicationFunction" id="a9b4f51a" name="Declareren geleverde diensten"/>
+      <element xsi:type="archimate:ApplicationFunction" id="f2afc897" name="Inzage in klantgegevens en lopende zaken (klantbeeld)"/>
+      <element xsi:type="archimate:ApplicationFunction" id="1c17684b" name="Registratie behandeltaken"/>
+      <element xsi:type="archimate:ApplicationFunction" id="cf3226d6" name="Registratie sociaal-medische informatie"/>
+      <element xsi:type="archimate:ApplicationFunction" id="d35b838c" name="Signaleren matches">
+        <documentation>Het signaleren, richting een bij een cliënt betrokken professional, dat een cliënt ook in behandeling is bij andere professionals.</documentation>
+      </element>
+      <element xsi:type="archimate:ApplicationFunction" id="d13654f6" name="Inzage in betrokken professionals">
+        <documentation>Het aan een bij een cliënt betrokken professional inzage geven in contactgegevens van andere bij de cliënt betrokken professionals.</documentation>
+      </element>
+      <element xsi:type="archimate:ApplicationFunction" id="030bce18" name="Klantvolgsysteem"/>
+    </folder>
     <element xsi:type="archimate:ApplicationComponent" id="66f36a23" name="Gemeentelijk Gegevensknooppunt"/>
     <element xsi:type="archimate:DataObject" id="5b1c31d4" name="iJW301"/>
     <element xsi:type="archimate:DataObject" id="847c4407" name="iJW315"/>
+    <element xsi:type="archimate:ApplicationComponent" id="e0d3a5e9" name="Landelijk Register van Zorgaanbieders (LRZa)">
+      <documentation>Het ministerie van Volksgezondheid, Welzijn en Sport werkt aan een landelijk register waarin alle zorgaanbieders zijn opgenomen. Het register zal tevens alle vestigingen bevatten waar zorg wordt geleverd onder verantwoordelijkheid van de zorgaanbieder. De LRZa is een virtueel register (aanbodgestuurd knooppunt) dat andere bronnen ontsluit, maar de gegevens hieruit niet kopieert. Belangrijke bronnen hiervoor zijn het Handelsregister (KvK), het AGB-register (Vektis) en het BIG-register (CIBG).</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="7cf0fc14" name="gezinsregistratie.nl">
+      <documentation>Applicatie gemaakt in Magic door IT4care, bedoeld ter ondersteuning van het Preventief Interventie Team (PIT)</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="f9e1d1a3" name="Jeugdmonitor"/>
+    <element xsi:type="archimate:ApplicationComponent" id="13c6fe91" name="Andreas"/>
+    <element xsi:type="archimate:ApplicationComponent" id="b3a37782" name="Wmo-Ned"/>
+    <element xsi:type="archimate:ApplicationComponent" id="2e0175b8" name="RIS OKT"/>
+    <element xsi:type="archimate:ApplicationComponent" id="2b005d52" name="RIS Jeugd &amp; Gezin"/>
+    <element xsi:type="archimate:ApplicationComponent" id="0f8d7dff" name="Matchpoint"/>
+    <element xsi:type="archimate:ApplicationComponent" id="2d8a76b1" name="RIS Samen DOEN"/>
+    <element xsi:type="archimate:ApplicationComponent" id="582b8829" name="Eigen systemen"/>
+    <element xsi:type="archimate:ApplicationComponent" id="0a280abd" name="Clavis">
+      <documentation>Volgens https://www.020veiligthuis.nl/nieuws/blij-met-nieuwe-registratiesysteem/: &quot;Met de komst van Veilig Thuis kwam de noodzaak een registratie programma aan te schaffen. Het nieuwe registratieprogramma moet aansluiten op het landelijk vastgestelde handelingsprotocol. Ook moet het de informatieverplichting die Veilig Thuis heeft richting het CBS en gemeenten ondersteunen. Daarbij is een eis dat het programma zo ingericht wordt, dat het de medewerkers werkinhoudelijk ondersteund. Het registratieprogramma voor Veilig Thuis Amsterdam-Amstelland is hiervoor geheel ontwikkeld. Na diverse prestentaties van verschillende aanbieders en landelijke testdagen bij VNG, is de keuze gevallen op Conclusion Digital Solutions met de CVS (Client Volg Systeem). Dit CVS is al eerder ingezet voor sociale wijkteams. Conclusion heeft landelijk voor alle Veilig Thuis organisaties een eigen variant op hun CVS gemaakt. Ze noemen het programma Conclusion CVS Clavis (Clavis is Latijn voor sleutel).&quot;</documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="47200d33" name="WIJZ???"/>
+    <element xsi:type="archimate:ApplicationComponent" id="9c8d50de" name="Regioportaal"/>
   </folder>
   <folder name="Technology" id="830a3777" type="technology"/>
   <folder name="Motivation" id="56c7c2ba" type="motivation">
@@ -32,9 +234,192 @@
   </folder>
   <folder name="Implementation &amp; Migration" id="4beb4737" type="implementation_migration"/>
   <folder name="Connectors" id="befb7221" type="connectors"/>
-  <folder name="Relations" id="c66d47c9" type="relations"/>
+  <folder name="Relations" id="c66d47c9" type="relations">
+    <element xsi:type="archimate:AggregationRelationship" id="7f39ec8d" source="65e658a9" target="a6af0306"/>
+    <element xsi:type="archimate:AggregationRelationship" id="eaf8c8bf" source="65e658a9" target="54ad794c"/>
+    <element xsi:type="archimate:AggregationRelationship" id="1ac225f8" source="65e658a9" target="13bed527"/>
+    <element xsi:type="archimate:AggregationRelationship" id="b6a20c5d" source="dfb4fe09" target="69f0aa1a"/>
+    <element xsi:type="archimate:AggregationRelationship" id="0cf0e82c" source="d0a4dd84" target="01aad33c"/>
+    <element xsi:type="archimate:AggregationRelationship" id="d1e0aad4" source="65e658a9" target="4071494a"/>
+    <element xsi:type="archimate:AggregationRelationship" id="f86b6e60" source="4071494a" target="0e7a4ddf"/>
+    <element xsi:type="archimate:AggregationRelationship" id="066ae29e" source="7238a7ba" target="e5aa4a2f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="7b5fc063" source="0f8d7dff" target="e5aa4a2f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="65bfb3f6" source="2e0175b8" target="7238a7ba"/>
+    <element xsi:type="archimate:UsedByRelationship" id="15aef0b1" source="7cf0fc14" target="c6034456"/>
+    <element xsi:type="archimate:UsedByRelationship" id="f340001d" source="2d8a76b1" target="c7b90006"/>
+    <element xsi:type="archimate:UsedByRelationship" id="29bc6e20" source="582b8829" target="f9467ec3"/>
+    <element xsi:type="archimate:UsedByRelationship" id="810b51fd" source="2e0175b8" target="f9467ec3"/>
+    <element xsi:type="archimate:UsedByRelationship" id="b4af3315" source="2b005d52" target="d5416611"/>
+    <element xsi:type="archimate:UsedByRelationship" id="2bfb9798" source="0a280abd" target="66e77bd8"/>
+    <element xsi:type="archimate:UsedByRelationship" id="e4bfa918" source="47200d33" target="88d6361f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="a3f220f6" source="b3a37782" target="2d9de2e1"/>
+    <element xsi:type="archimate:UsedByRelationship" id="1ffdef14" source="13c6fe91" target="fee5688c"/>
+    <element xsi:type="archimate:UsedByRelationship" id="ccb90405" source="f9e1d1a3" target="fe1944a3"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="b79208c9" source="a6af0306" target="fe1944a3"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="a7286c4b" source="a6af0306" target="fee5688c"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="bc127a32" source="0e7a4ddf" target="2d9de2e1"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="04815e1d" source="54ad794c" target="c7b90006"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="8ba98feb" source="13bed527" target="c6034456"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="8013f6db" source="05c20cf8" target="7238a7ba"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="b8c68dfa" source="de80c4d8" target="f9467ec3"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="7cd0abfc" source="d58301b5" target="d5416611"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="3b5a48ca" source="69f0aa1a" target="66e77bd8"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="34b2b51a" source="19e60e1a" target="88d6361f"/>
+    <element xsi:type="archimate:UsedByRelationship" id="2dee7e99" source="9c8d50de" target="f9467ec3"/>
+  </folder>
   <folder name="Views" id="055338a0" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" id="08b228e5" name="Default View"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="08b228e5" name="Overzicht Jeugdhulp huidige situatie 2016">
+      <child xsi:type="archimate:DiagramObject" id="ffc37742" textAlignment="2" targetConnections="9b46be10" archimateElement="a6af0306">
+        <bounds x="144" y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="20be3f28" source="ffc37742" target="2d33eb4f" relationship="b79208c9"/>
+        <sourceConnection xsi:type="archimate:Connection" id="43d6ab09" source="ffc37742" target="d40c0b0d" relationship="a7286c4b"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="650e9831" textAlignment="2" archimateElement="65e658a9">
+        <bounds x="288" y="51" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="9b46be10" source="650e9831" target="ffc37742" relationship="7f39ec8d"/>
+        <sourceConnection xsi:type="archimate:Connection" id="dd1d64e9" source="650e9831" target="bd9a9f2e" relationship="eaf8c8bf"/>
+        <sourceConnection xsi:type="archimate:Connection" id="44390c6e" source="650e9831" target="a356002e" relationship="1ac225f8"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e2e031e0" source="650e9831" target="fb719bef" relationship="d1e0aad4"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a3f23149" textAlignment="2" archimateElement="19e60e1a">
+        <bounds x="432" y="396" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="55561829" source="a3f23149" target="d1de67ee" relationship="34b2b51a"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="cc00e57f" textAlignment="2" archimateElement="de80c4d8">
+        <bounds x="1008" y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="f72fd585" source="cc00e57f" target="ef78f9e5" relationship="b8c68dfa"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="bd9a9f2e" textAlignment="2" targetConnections="dd1d64e9" archimateElement="54ad794c">
+        <bounds x="432" y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="a9481ca2" source="bd9a9f2e" target="fa047e61" relationship="04815e1d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="a356002e" textAlignment="2" targetConnections="44390c6e" archimateElement="13bed527">
+        <bounds x="288" y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5f4d2b85" source="a356002e" target="eb48b869" relationship="8ba98feb"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f30f7562" textAlignment="2" targetConnections="c99a2125" archimateElement="69f0aa1a">
+        <bounds x="144" y="396" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="4c829afa" source="f30f7562" target="664e6a7f" relationship="3b5a48ca"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b6446f60" textAlignment="2" targetConnections="7fb175b1" archimateElement="01aad33c">
+        <bounds y="51" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5fa830fb" textAlignment="2" archimateElement="d0a4dd84">
+        <bounds y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7fb175b1" source="5fa830fb" target="b6446f60" relationship="0cf0e82c"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="b13d2a33" textAlignment="2" archimateElement="dfb4fe09">
+        <bounds y="396" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c99a2125" source="b13d2a33" target="f30f7562" relationship="b6a20c5d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fb719bef" textAlignment="2" targetConnections="e2e031e0" archimateElement="4071494a">
+        <bounds x="576" y="51" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="fb479dd9" source="fb719bef" target="4fe516f8" relationship="f86b6e60"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4fe516f8" textAlignment="2" targetConnections="fb479dd9" archimateElement="0e7a4ddf">
+        <bounds x="576" y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="9facba3f" source="4fe516f8" target="f84859d0" relationship="bc127a32"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="2d33eb4f" textAlignment="2" targetConnections="ab0a6bdc 20be3f28" archimateElement="fe1944a3">
+        <bounds y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d40c0b0d" textAlignment="2" targetConnections="bae597a6 43d6ab09" archimateElement="fee5688c">
+        <bounds x="144" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f84859d0" textAlignment="2" targetConnections="97916b46 9facba3f" archimateElement="2d9de2e1">
+        <bounds x="576" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="95bb0a8d" textAlignment="2" archimateElement="05c20cf8">
+        <bounds x="865" y="144" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="8fa2301e" source="95bb0a8d" target="e5194fc6" relationship="8013f6db"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fa047e61" textAlignment="2" targetConnections="e3e40e92 a9481ca2" archimateElement="c7b90006">
+        <bounds x="432" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="eb48b869" textAlignment="2" targetConnections="975d31c2 5f4d2b85" archimateElement="c6034456">
+        <bounds x="288" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ef78f9e5" textAlignment="2" targetConnections="512ed698 b77c3bd2 f72fd585 7d59c78c" archimateElement="f9467ec3">
+        <bounds x="1008" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="664e6a7f" textAlignment="2" targetConnections="baf35620 4c829afa" archimateElement="66e77bd8">
+        <bounds x="144" y="480" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="d1de67ee" textAlignment="2" targetConnections="61879d6e 55561829" archimateElement="88d6361f">
+        <bounds x="432" y="480" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="e5194fc6" textAlignment="2" targetConnections="79ff87a9 8fa2301e" archimateElement="7238a7ba">
+        <bounds x="865" y="228" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="c4d9a7a4" source="e5194fc6" target="5336cf3a" relationship="066ae29e"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="6694bfd9" textAlignment="2" archimateElement="f9e1d1a3">
+        <bounds y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="ab0a6bdc" source="6694bfd9" target="2d33eb4f" relationship="ccb90405"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="7601d4bd" textAlignment="2" archimateElement="7cf0fc14">
+        <bounds x="288" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="975d31c2" source="7601d4bd" target="eb48b869" relationship="15aef0b1"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ed125525" textAlignment="2" archimateElement="2e0175b8">
+        <bounds x="865" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="79ff87a9" source="ed125525" target="e5194fc6" relationship="65bfb3f6"/>
+        <sourceConnection xsi:type="archimate:Connection" id="b77c3bd2" source="ed125525" target="ef78f9e5" relationship="810b51fd"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="ee108018" textAlignment="2" archimateElement="2d8a76b1">
+        <bounds x="432" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="e3e40e92" source="ee108018" target="fa047e61" relationship="f340001d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="8003bebd" textAlignment="2" archimateElement="b3a37782">
+        <bounds x="576" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="97916b46" source="8003bebd" target="f84859d0" relationship="a3f220f6"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="740f2f31" textAlignment="2" targetConnections="2ca45085 5bd68dbd" archimateElement="d5416611">
+        <bounds x="288" y="480" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="17b5455e" textAlignment="2" archimateElement="2b005d52">
+        <bounds x="288" y="564" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="2ca45085" source="17b5455e" target="740f2f31" relationship="b4af3315"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="09bf6732" textAlignment="2" archimateElement="582b8829">
+        <bounds x="1152" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="512ed698" source="09bf6732" target="ef78f9e5" relationship="29bc6e20"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5a5b6e62" textAlignment="2" archimateElement="d58301b5">
+        <bounds x="288" y="396" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="5bd68dbd" source="5a5b6e62" target="740f2f31" relationship="7cd0abfc"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="784e7fda" textAlignment="2" archimateElement="0a280abd">
+        <bounds x="144" y="564" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="baf35620" source="784e7fda" target="664e6a7f" relationship="2bfb9798"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="674650ae" textAlignment="2" archimateElement="13c6fe91">
+        <bounds x="144" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="bae597a6" source="674650ae" target="d40c0b0d" relationship="1ffdef14"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fe384332" textAlignment="2" archimateElement="47200d33">
+        <bounds x="432" y="564" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="61879d6e" source="fe384332" target="d1de67ee" relationship="e4bfa918"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="94325377" textAlignment="2" archimateElement="0f8d7dff">
+        <bounds x="720" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="de8603dc" source="94325377" target="5336cf3a" relationship="7b5fc063"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="5336cf3a" textAlignment="2" targetConnections="c4d9a7a4 de8603dc" archimateElement="e5aa4a2f">
+        <bounds x="720" y="228" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:Note" id="d8a0ccc8" textAlignment="1">
+        <bounds x="984" y="51" width="288" height="82"/>
+        <content>Gemeente Amsterdam&#xD;
+Domein Jeugdhulp&#xD;
+Verantwoordelijkheden mbt jeugdhulp vs applicaties&#xD;
+Huidige situatie 2016&#xD;
+Versie 20160715</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="fa18e6ad" textAlignment="2" archimateElement="9c8d50de">
+        <bounds x="1008" y="312" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="7d59c78c" source="fa18e6ad" target="ef78f9e5" relationship="2dee7e99"/>
+      </child>
+    </element>
   </folder>
   <purpose>Deze domeinarchitectuur is bedoeld om overzicht te bieden op en inzicht te bieden in het gemeentelijke Jeugdhulp domein. De domeinarchitectuur bevat modellen en beschrijvingen van de huidige situatie van 2016, en ontwerpplaten van een doelsituatie van ongeveer 2020. Behandeld worden de verschillende taken en verantwoordelijkheden in de Jeugdketen, de produkten en diensten van de verschillende partijen, de processen achter de taken, verantwoordelijkheden, produkten en diensten, en de benodigde informatievoorziening en infrastructuur.&#xD;
 &#xD;
