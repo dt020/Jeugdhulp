@@ -114,7 +114,23 @@ Zie http://www.bjaa.nl/ (Bureau Jeugdzorg Agglomeratie Amsterdam)</documentation
         <documentation>Samenwerkingsverband in de verschillende wijken bestaande uit Ouder- en Kind adviseurs.</documentation>
       </element>
       <element xsi:type="archimate:BusinessActor" id="13bed527" name="Preventief Interventie Team">
-        <documentation>Volgens https://gezinsregistratie.nl/: &quot;Dit multidisciplinaire team wil kinderen die een verhoogd risico lopen op problemen in de sociale ontwikkeling, snel en vroegtijdig hulp bieden met als doel het risico op het ontwikkelen van ernstige gedragsproblemen te verkleinen. De teamleden komen uit verschillende voorzieningen/sectoren en werken onder regie van de gemeente Amsterdam. Het lukt het PIT om 98% van de risicogezinnen te bereiken. Onderzoek van de Universiteit leiden laat zien dat deze kinderen er in meerdere opzichten fors op vooruitgaan.&quot;</documentation>
+        <documentation>Volgens https://gezinsregistratie.nl/: &quot;Dit multidisciplinaire team wil kinderen die een verhoogd risico lopen op problemen in de sociale ontwikkeling, snel en vroegtijdig hulp bieden met als doel het risico op het ontwikkelen van ernstige gedragsproblemen te verkleinen. De teamleden komen uit verschillende voorzieningen/sectoren en werken onder regie van de gemeente Amsterdam. Het lukt het PIT om 98% van de risicogezinnen te bereiken. Onderzoek van de Universiteit leiden laat zien dat deze kinderen er in meerdere opzichten fors op vooruitgaan.&quot;&#xD;
+&#xD;
+Artikel in de Volkskrant (	24 juni 2017, http://www.volkskrant.nl/magazine/misdaadpreventie-voor-de-kleinsten-is-dat-wenselijk~a4502425/):&#xD;
+&#xD;
+&quot;Het Amsterdamse Preventief Interventie Team screent en begeleidt 'risicokinderen' vanaf 6 jaar om te voorkomen dat ze op het slechte pad raken.&quot;&#xD;
+&#xD;
+&quot;Met de focus op de jongsten wil de gemeente Amsterdam de schooluitval en jeugdcriminaliteit verminderen. Doorgewinterde criminelen zijn moeilijk op het rechte pad te krijgen. Maar jonge kinderen met gedragsproblemen zijn nog bij te sturen in de goede richting.&#xD;
+&#xD;
+De 34 Amsterdamse basisscholen die samenwerken met het PIT kunnen kinderen aanmelden over wie zij zich zorgen maken: jongens en meiden die onhandelbaar zijn, of zelfs agressief. Het PIT test de kinderen uitgebreid en kijkt hoe de situatie thuis en op school is. Aan de hand van de uitkomsten bedenken de PIT-medewerkers wat er moet gebeuren om het kind te helpen.&quot;&#xD;
+&#xD;
+&quot;Twaalfhonderd kinderen heeft het PIT in zijn zesjarig bestaan in het vizier gehad. De resultaten zijn opmerkelijk. Van driekwart van hen is het gedrag na een jaar aanmerkelijk verbeterd.&quot;&#xD;
+&#xD;
+&quot;Het PIT gaat ook langs bij de minderjarige broertjes en zusjes van de zogeheten Top600, de lijst met de beruchtste veelplegers van de hoofdstad. Amsterdam wil voorkomen dat de kleintjes het voorbeeld van hun grote broer volgen en opgroeien tot de criminelen van morgen.&quot;&#xD;
+&#xD;
+&quot;Het Preventief Interventie Team (PIT) wil risicokinderen vanaf 6 jaar tijdig opsporen en door ingrepen in hun leefomgeving voorkomen dat zij afglijden in de criminaliteit of hun school niet afmaken. Bijzonder is dat de aanpak steunt op recent wetenschappelijk onderzoek van de afdeling neuropedagogiek en ontwikkelingsstoornissen van de Universiteit Leiden. Met een daarop gebaseerde screeningsmethode meten hulpverleners de risicofactoren bij een kind die kunnen leiden tot een anti-sociale ontwikkeling.&quot;&#xD;
+&#xD;
+&quot;&quot;</documentation>
       </element>
       <element xsi:type="archimate:BusinessActor" id="65e658a9" name="RVE Onderwijs, Jeugd en Zorg"/>
       <element xsi:type="archimate:BusinessActor" id="54ad794c" name="Samen DOEN teams">
