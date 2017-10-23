@@ -1,0 +1,5 @@
+<archimate:BusinessFunction
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Formele afhandeling"
+    id="2d9de2e1"
+    documentation="Waaronder:&#xD;&#xA;- afhandelen van verzoeken om toewijzing&#xD;&#xA;- het maken van beschikkingen&#xD;&#xA;- betalen van facturen (of opdracht geven daarvoor)&#xD;&#xA;- informeren van de SVB in het geval van PGB's&#xD;&#xA;- informeren van het CAK in het geval van een eventuele eigen bijdrage&#xD;&#xA;- afhandeling van verhuizingen en overlijdens&#xD;&#xA;- ondersteuning van klachtafhandeling en bezwaar- en beroepszaken&#xD;&#xA;- verzorgen van dashboards en rapportages&#xD;&#xA;- voeden van het persoonlijke burgerportaal&#xD;&#xA;"/>
