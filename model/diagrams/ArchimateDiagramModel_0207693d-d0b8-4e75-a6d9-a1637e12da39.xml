@@ -888,9 +888,9 @@
       id="3d4bddaf-d3bb-409d-baae-782d47dd2057"
       targetConnections="3f1a65a5-7645-42bc-95cd-35824f65f5f3">
     <bounds
-        x="576"
+        x="564"
         y="564"
-        width="120"
+        width="132"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
