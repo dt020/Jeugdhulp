@@ -397,7 +397,7 @@
       id="80f297cc-2482-4728-b4eb-47171113820d">
     <bounds
         x="588"
-        y="240"
+        y="276"
         width="601"
         height="25"/>
     <archimateElement
@@ -426,5 +426,17 @@
     <archimateElement
         xsi:type="archimate:BusinessActor"
         href="BusinessActor_0c2400c4-bea8-447d-bae3-d217e2d18ea0.xml#0c2400c4-bea8-447d-bae3-d217e2d18ea0"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="a9bd309b-ff7c-4785-aa87-a9e6e8050215">
+    <bounds
+        x="588"
+        y="240"
+        width="397"
+        height="25"/>
+    <archimateElement
+        xsi:type="archimate:BusinessActor"
+        href="BusinessActor_82c15957-e892-4d76-9eca-77364883542e.xml#82c15957-e892-4d76-9eca-77364883542e"/>
   </children>
 </archimate:ArchimateDiagramModel>
