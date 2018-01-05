@@ -906,4 +906,16 @@
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_fee5688c.xml#fee5688c"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="40e9a28c-731d-4631-b333-e93b07e38c01">
+    <bounds
+        x="108"
+        y="516"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_5ec9659f.xml#5ec9659f"/>
+  </children>
 </archimate:ArchimateDiagramModel>
