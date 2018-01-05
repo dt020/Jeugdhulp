@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Amsterdam Management Informatie"
+    id="79c40bb1-b585-470f-888e-8d816c905335"
+    documentation="Bereikbaar via https://ami.amsterdam.nl. AMI toont informatie afkomstig uit bronsystemen AFS en P-Net. "/>
