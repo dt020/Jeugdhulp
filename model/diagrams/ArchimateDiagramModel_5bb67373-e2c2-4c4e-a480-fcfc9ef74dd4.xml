@@ -5,6 +5,19 @@
     id="5bb67373-e2c2-4c4e-a480-fcfc9ef74dd4">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
+      id="d3900214-6cc3-43dd-88c7-759694f1bb82"
+      targetConnections="9769cfd3-3a05-403b-802f-4ee0db6b301a">
+    <bounds
+        x="648"
+        y="108"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessFunction"
+        href="BusinessFunction_3532ffcf-7fe9-4aa5-9ddc-b948ae241065.xml#3532ffcf-7fe9-4aa5-9ddc-b948ae241065"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
       id="400f7830-60d1-4704-b524-66bb212d21b8"
       targetConnections="9ee2d242-c42e-4182-8dd0-5ee5890be1c4">
     <sourceConnections
@@ -63,7 +76,7 @@
     </sourceConnections>
     <bounds
         x="201"
-        y="612"
+        y="636"
         width="120"
         height="55"/>
     <archimateElement
@@ -85,7 +98,7 @@
     </sourceConnections>
     <bounds
         x="351"
-        y="612"
+        y="636"
         width="120"
         height="55"/>
     <archimateElement
@@ -106,7 +119,7 @@
     </sourceConnections>
     <bounds
         x="201"
-        y="360"
+        y="384"
         width="120"
         height="55"/>
     <archimateElement
@@ -128,7 +141,7 @@
     </sourceConnections>
     <bounds
         x="201"
-        y="528"
+        y="552"
         width="120"
         height="55"/>
     <archimateElement
@@ -154,7 +167,7 @@
         target="4e937120-92cb-459d-b611-40a188f93f50">
       <bendpoints
           startX="-24"
-          startY="549"
+          startY="609"
           endX="-177"
           endY="-3"/>
       <archimateRelationship
@@ -167,7 +180,7 @@
         source="a6ea0d93-952f-47ea-8efe-1232a1318c41"
         target="42cb3e6b-4777-4c9a-a745-bdf8386a609b">
       <bendpoints
-          startY="465"
+          startY="525"
           endX="-153"
           endY="-3"/>
       <archimateRelationship
@@ -181,7 +194,7 @@
         target="1a6243fb-0547-4f27-bc3a-ec0bbdfa2f99">
       <bendpoints
           startX="24"
-          startY="381"
+          startY="441"
           endX="-129"
           endY="-3"/>
       <archimateRelationship
@@ -212,7 +225,7 @@
     </sourceConnections>
     <bounds
         x="201"
-        y="444"
+        y="468"
         width="120"
         height="55"/>
     <archimateElement
@@ -225,7 +238,7 @@
       targetConnections="f33e2d2b-38ca-48c9-9d5c-99fa879b8da6">
     <bounds
         x="501"
-        y="360"
+        y="384"
         width="120"
         height="55"/>
     <archimateElement
@@ -238,7 +251,7 @@
       targetConnections="8baa48e2-a904-47a2-bd9b-03a09f35f5fe">
     <bounds
         x="504"
-        y="612"
+        y="636"
         width="120"
         height="55"/>
     <archimateElement
@@ -247,11 +260,10 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="e2d4e0d9-662c-43b6-91c9-e92e3268518a"
-      targetConnections="e8d5f3d1-5a2a-4403-8e73-11fe788eed5c">
+      id="e2d4e0d9-662c-43b6-91c9-e92e3268518a">
     <bounds
-        x="648"
-        y="108"
+        x="660"
+        y="144"
         width="120"
         height="55"/>
     <archimateElement
@@ -277,7 +289,7 @@
       targetConnections="e3a93bcc-53b5-48a4-a17e-a3219dd4117f">
     <bounds
         x="504"
-        y="444"
+        y="468"
         width="120"
         height="55"/>
     <archimateElement
@@ -290,7 +302,7 @@
       targetConnections="0c48a6e1-2953-4d7f-bfd6-cc5ca202337d">
     <bounds
         x="504"
-        y="528"
+        y="552"
         width="120"
         height="55"/>
     <archimateElement
@@ -369,12 +381,12 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="e8d5f3d1-5a2a-4403-8e73-11fe788eed5c"
+        id="9769cfd3-3a05-403b-802f-4ee0db6b301a"
         source="02ee588e-c974-4bd2-84d6-29eebc4111ce"
-        target="e2d4e0d9-662c-43b6-91c9-e92e3268518a">
+        target="d3900214-6cc3-43dd-88c7-759694f1bb82">
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
-          href="AssignmentRelationship_c925e480-f426-4c32-ac9f-cb7640cc380e.xml#c925e480-f426-4c32-ac9f-cb7640cc380e"/>
+          href="AssignmentRelationship_49716089-a3f1-4494-8c7c-da2ed2831ba0.xml#49716089-a3f1-4494-8c7c-da2ed2831ba0"/>
     </sourceConnections>
     <bounds
         x="351"
@@ -411,8 +423,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="2558318c-ef58-414a-ac14-680ba556c084">
     <bounds
-        x="660"
-        y="144"
+        x="672"
+        y="180"
         width="120"
         height="55"/>
     <archimateElement
@@ -423,8 +435,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="a8d896b0-aa20-4539-92c2-10817c33b986">
     <bounds
-        x="672"
-        y="180"
+        x="684"
+        y="216"
         width="120"
         height="55"/>
     <archimateElement
@@ -435,8 +447,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="5b164bf3-162c-48e8-99ab-9cf5d21aa898">
     <bounds
-        x="685"
-        y="216"
+        x="697"
+        y="252"
         width="120"
         height="55"/>
     <archimateElement
@@ -447,8 +459,8 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="5527677a-52fe-490f-aa41-eeea7d0f131e">
     <bounds
-        x="696"
-        y="252"
+        x="708"
+        y="288"
         width="120"
         height="55"/>
     <archimateElement
@@ -462,8 +474,8 @@
       content="Mbt jeugdgezondheidszorg, jeugd- en opvoedhulp, JGGZ, J-(L)VB en welzijn">
     <bounds
         x="639"
-        y="360"
-        width="189"
+        y="384"
+        width="201"
         height="55"/>
   </children>
   <children
@@ -473,8 +485,8 @@
       content="Hulp op buurtniveau aan kwetsbare huishoudens met domein-overstijgende problematiek">
     <bounds
         x="639"
-        y="444"
-        width="189"
+        y="468"
+        width="201"
         height="73"/>
   </children>
   <children
@@ -484,16 +496,16 @@
       content="Bijvoorbeeld van&#xD;&#xA;- verzoeken om toewijzing&#xD;&#xA;- declaraties en facturen&#xD;&#xA;- verhuizingen en overlijdens&#xD;&#xA;- informatievragen, klachten, ...&#xD;&#xA;- klachten">
     <bounds
         x="639"
-        y="582"
-        width="189"
+        y="606"
+        width="201"
         height="85"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="5ed95e31-9fab-4831-8eea-de8fdcf538bb">
     <bounds
-        x="708"
-        y="288"
+        x="720"
+        y="324"
         width="120"
         height="55"/>
     <archimateElement
