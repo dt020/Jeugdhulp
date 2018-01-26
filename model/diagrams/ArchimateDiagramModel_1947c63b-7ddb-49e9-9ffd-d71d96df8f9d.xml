@@ -22,7 +22,7 @@
       content="Informatiearchitectuur">
     <bounds
         x="24"
-        y="175"
+        y="216"
         width="185"
         height="80"/>
   </children>
@@ -33,7 +33,7 @@
       content="Technische architectuur">
     <bounds
         x="24"
-        y="259"
+        y="300"
         width="185"
         height="80"/>
   </children>
@@ -83,8 +83,8 @@
       xsi:type="archimate:DiagramModelReference"
       id="b3ccf559-ac7b-4147-9ca8-5314f35020d3">
     <bounds
-        x="240"
-        y="96"
+        x="228"
+        y="91"
         width="120"
         height="55"/>
     <referencedModel
@@ -95,8 +95,8 @@
       xsi:type="archimate:DiagramModelReference"
       id="30032bac-ef19-4689-899a-71bb82b74fb9">
     <bounds
-        x="267"
-        y="121"
+        x="252"
+        y="116"
         width="120"
         height="55"/>
     <referencedModel
@@ -108,7 +108,7 @@
       id="80abd148-283f-44bb-88f9-45272e8a4a4f">
     <bounds
         x="441"
-        y="187"
+        y="228"
         width="120"
         height="55"/>
     <referencedModel
@@ -122,7 +122,7 @@
       content="Beveiliging en privacy">
     <bounds
         x="24"
-        y="348"
+        y="389"
         width="185"
         height="80"/>
   </children>
@@ -133,8 +133,20 @@
       content="Beheer">
     <bounds
         x="24"
-        y="432"
+        y="473"
         width="185"
         height="80"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelReference"
+      id="3eccd94d-084b-405f-a758-692a137830e8">
+    <bounds
+        x="274"
+        y="152"
+        width="120"
+        height="55"/>
+    <referencedModel
+        xsi:type="archimate:ArchimateDiagramModel"
+        href="ArchimateDiagramModel_5bb67373-e2c2-4c4e-a480-fcfc9ef74dd4.xml#5bb67373-e2c2-4c4e-a480-fcfc9ef74dd4"/>
   </children>
 </archimate:ArchimateDiagramModel>
