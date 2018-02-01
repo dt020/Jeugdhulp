@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Voorzieningen aanbod volgens Verordening huidige situatie 2018"
-    id="e458f106-8a78-4424-bebb-815652c5a914">
+    id="e458f106-8a78-4424-bebb-815652c5a914"
+    documentation="Wat is er gemeentelijk ingekocht en wat regionaal?">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="2165aa18-42ed-4bed-b726-88daf614ce8a"
@@ -254,7 +255,7 @@
     <bounds
         x="552"
         y="12"
-        width="169"
+        width="145"
         height="409"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
@@ -262,7 +263,7 @@
         targetConnections="f559c027-fc75-4afd-8bd3-c8d3bacebfde"
         fillColor="#b1fcdb">
       <bounds
-          x="24"
+          x="12"
           y="48"
           width="120"
           height="55"/>
@@ -275,7 +276,7 @@
         id="86ce8f69-066c-4bda-b4d8-75185ea50b9c"
         targetConnections="bf1da519-bda4-49e0-8188-f8c46420752d">
       <bounds
-          x="24"
+          x="12"
           y="120"
           width="120"
           height="55"/>
@@ -288,7 +289,7 @@
         id="35ff801b-760a-444a-9b21-a6a2730fce5c"
         targetConnections="ce376165-397e-4d54-ad7c-5a80be386511">
       <bounds
-          x="24"
+          x="12"
           y="192"
           width="120"
           height="55"/>
@@ -301,7 +302,7 @@
         id="83e2d620-d3a8-4ac1-ac54-dbfa3f7e4a8b"
         targetConnections="8de59c71-37c0-44d9-bdc8-06b36d38be08">
       <bounds
-          x="24"
+          x="12"
           y="264"
           width="120"
           height="55"/>
@@ -314,7 +315,7 @@
         id="b5fcdbe3-1e09-42fc-8104-555eb400c774"
         targetConnections="d309a920-de37-4acc-abfe-2a80270ce643">
       <bounds
-          x="24"
+          x="12"
           y="336"
           width="120"
           height="55"/>
