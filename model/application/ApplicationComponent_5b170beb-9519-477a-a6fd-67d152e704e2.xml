@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Regionaal Administratie Platform"
-    id="5b170beb-9519-477a-a6fd-67d152e704e2"/>
+    id="5b170beb-9519-477a-a6fd-67d152e704e2"
+    documentation="Bereikbaar via https://rap.bettyblocks.com"/>
