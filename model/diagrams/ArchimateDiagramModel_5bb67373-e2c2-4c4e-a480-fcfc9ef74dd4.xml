@@ -512,4 +512,15 @@
         xsi:type="archimate:BusinessFunction"
         href="BusinessFunction_5ec9659f.xml#5ec9659f"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="1e3cccb8-9587-405b-9330-042194474c3a"
+      textAlignment="1"
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugd&#xD;&#xA;Organisatie en verantwoordelijkheden&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180208">
+    <bounds
+        x="791"
+        y="24"
+        width="218"
+        height="85"/>
+  </children>
 </archimate:ArchimateDiagramModel>
