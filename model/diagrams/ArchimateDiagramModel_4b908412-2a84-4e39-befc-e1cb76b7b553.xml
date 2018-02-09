@@ -304,10 +304,10 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="62641453-4b54-468b-a72a-4b0766c75c47"
-      targetConnections="0a31dbcb-5a64-4f0e-a5d7-09fd8da76338">
+      targetConnections="0a31dbcb-5a64-4f0e-a5d7-09fd8da76338 c35df10a-46c7-4b59-972a-f61376ed9f4b">
     <bounds
         x="540"
-        y="516"
+        y="576"
         width="120"
         height="55"/>
     <archimateElement
@@ -480,6 +480,19 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="02239439-5a14-42c2-bcc8-c7b10e8e9fa7"
       targetConnections="b5366bc0-c8fc-44f4-8dba-351e872b94f7 e40ecac5-b376-47c3-9d91-77931027c96d">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="c35df10a-46c7-4b59-972a-f61376ed9f4b"
+        source="02239439-5a14-42c2-bcc8-c7b10e8e9fa7"
+        target="62641453-4b54-468b-a72a-4b0766c75c47">
+      <bendpoints
+          startY="297"
+          endX="684"
+          endY="-3"/>
+      <archimateRelationship
+          xsi:type="archimate:AccessRelationship"
+          href="AccessRelationship_255b90e2-b158-4303-9c40-31b1972e0626.xml#255b90e2-b158-4303-9c40-31b1972e0626"/>
+    </sourceConnections>
     <bounds
         x="1224"
         y="288"
@@ -510,5 +523,16 @@
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_210ce2e5-315a-4b12-802b-228246547b1b.xml#210ce2e5-315a-4b12-802b-228246547b1b"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="450f443c-d4ef-4457-96f5-59bb4af66af6"
+      textAlignment="1"
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Werkwijze bij specialistische jeugdhulp&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180209">
+    <bounds
+        x="12"
+        y="540"
+        width="217"
+        height="91"/>
   </children>
 </archimate:ArchimateDiagramModel>
