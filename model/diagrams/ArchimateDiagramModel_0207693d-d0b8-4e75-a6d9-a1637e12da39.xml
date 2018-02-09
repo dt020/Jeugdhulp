@@ -277,8 +277,8 @@
       id="2b4f17c8-1cd5-4ea3-bc9a-c313bbcba6b4"
       targetConnections="6d5fd045-0474-4c48-90a6-7ad648973340">
     <bounds
-        x="216"
-        y="36"
+        x="215"
+        y="22"
         width="120"
         height="55"/>
     <archimateElement
@@ -299,8 +299,8 @@
           href="AggregationRelationship_0cf0e82c.xml#0cf0e82c"/>
     </sourceConnections>
     <bounds
-        x="372"
-        y="36"
+        x="371"
+        y="22"
         width="120"
         height="55"/>
     <archimateElement
@@ -1161,8 +1161,8 @@
           href="ServingRelationship_488ebf4c-a37d-4869-95c6-91a79247ed7a.xml#488ebf4c-a37d-4869-95c6-91a79247ed7a"/>
     </sourceConnections>
     <bounds
-        x="528"
-        y="36"
+        x="527"
+        y="22"
         width="120"
         height="55"/>
     <archimateElement
@@ -1254,8 +1254,8 @@
       id="690c224e-9ef1-441f-aef4-f0847d16f488"
       targetConnections="c627ee1f-d6ea-49ec-a3a1-7beed347c64e">
     <bounds
-        x="708"
-        y="24"
+        x="707"
+        y="10"
         width="120"
         height="55"/>
     <archimateElement
@@ -1267,8 +1267,8 @@
       id="e884e4ec-8a24-41c1-b188-23dcf7a9a566"
       targetConnections="bef1d608-38c0-4304-8b95-ac08e669263a">
     <bounds
-        x="720"
-        y="48"
+        x="719"
+        y="34"
         width="120"
         height="55"/>
     <archimateElement
@@ -1295,5 +1295,16 @@
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_b0cf2da1-584e-4b0b-8718-114bb5faceb9.xml#b0cf2da1-584e-4b0b-8718-114bb5faceb9"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="3b43bbcf-ee98-437b-a20f-66b20f243c89"
+      textAlignment="1"
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Verantwoordelijkheden vs applicaties&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180209">
+    <bounds
+        x="1384"
+        y="10"
+        width="213"
+        height="93"/>
   </children>
 </archimate:ArchimateDiagramModel>

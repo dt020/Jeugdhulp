@@ -794,4 +794,15 @@
         xsi:type="archimate:BusinessObject"
         href="BusinessObject_a8c92d74-79b3-4a0a-9af2-a5ac6eb7efdf.xml#a8c92d74-79b3-4a0a-9af2-a5ac6eb7efdf"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="bf67157d-d3b5-4ab6-b6f2-e7fe8695f571"
+      textAlignment="1"
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Informatiemodel&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180209">
+    <bounds
+        x="36"
+        y="671"
+        width="145"
+        height="92"/>
+  </children>
 </archimate:ArchimateDiagramModel>

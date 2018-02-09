@@ -92,7 +92,6 @@
     </sourceConnections>
     <bounds
         x="600"
-        y="24"
         width="120"
         height="55"/>
     <archimateElement
@@ -127,8 +126,8 @@
         target="234bf7d8-b6df-4627-be7a-03c8506a7ade">
       <bendpoints
           startX="432"
-          startY="-14"
-          endY="-92"/>
+          startY="-15"
+          endY="-117"/>
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_1ac225f8.xml#1ac225f8"/>
@@ -140,15 +139,14 @@
         target="fea17aa3-82d2-4bc9-86b7-047fe11a371f">
       <bendpoints
           startX="288"
-          startY="10"
-          endY="-68"/>
+          startY="9"
+          endY="-93"/>
       <archimateRelationship
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_eaf8c8bf.xml#eaf8c8bf"/>
     </sourceConnections>
     <bounds
         x="24"
-        y="24"
         width="120"
         height="55"/>
     <archimateElement
@@ -1017,5 +1015,15 @@
     <archimateElement
         xsi:type="archimate:BusinessActor"
         href="BusinessActor_cd492992-cbed-409e-ad66-15166f21ffdc.xml#cd492992-cbed-409e-ad66-15166f21ffdc"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="1710649a-194c-4241-9071-a08df7032a69"
+      textAlignment="1"
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Organisatie context&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180209">
+    <bounds
+        x="1295"
+        width="145"
+        height="92"/>
   </children>
 </archimate:ArchimateDiagramModel>

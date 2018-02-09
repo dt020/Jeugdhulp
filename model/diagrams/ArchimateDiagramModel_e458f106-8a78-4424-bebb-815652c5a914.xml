@@ -360,4 +360,15 @@
         xsi:type="archimate:Product"
         href="Product_cda677fe-649e-463d-a212-9c2e92c3bb3d.xml#cda677fe-649e-463d-a212-9c2e92c3bb3d"/>
   </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="dfa9d77a-9895-4001-86b3-237cb8ac62fd"
+      textAlignment="1"
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Voorzieningen aanbod&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180209">
+    <bounds
+        x="720"
+        y="12"
+        width="133"
+        height="85"/>
+  </children>
 </archimate:ArchimateDiagramModel>
