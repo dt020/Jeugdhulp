@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Verantwoordelijkheden en processen"
+    name="Verantwoordelijkheden, processen en producten"
     id="0f9c6a9a-1903-42a0-8947-2a7ca8cabe14">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -549,11 +549,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="ba557b3d-5b5d-45cd-93ab-ff61cab3e8d1"
       textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Verantwoordelijkheden en processen&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180209">
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Verantwoordelijkheden, processen, producten&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180212">
     <bounds
         x="852"
         y="24"
-        width="133"
+        width="145"
         height="109"/>
   </children>
 </archimate:ArchimateDiagramModel>
