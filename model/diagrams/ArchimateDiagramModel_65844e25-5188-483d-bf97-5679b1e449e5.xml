@@ -1,0 +1,17 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Overzicht RIS'en"
+    id="65844e25-5188-483d-bf97-5679b1e449e5">
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="19447794-82dd-422d-8780-d17cb1403fcf"
+      textAlignment="1"
+      content="Zie de plaat met dezelfde naam in de repository Informatievoorziening">
+    <bounds
+        x="75"
+        y="52"
+        width="185"
+        height="80"/>
+  </children>
+</archimate:ArchimateDiagramModel>

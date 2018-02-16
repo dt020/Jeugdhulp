@@ -1,0 +1,17 @@
+<archimate:ArchimateDiagramModel
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="BI-dienstverlening IVE aan Jeugd, huidige situatie 2018"
+    id="177df4bc-7280-4c60-a902-35cd2e69d48e">
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="135c5e25-d81a-4ff0-8fea-7a0f1cab7060"
+      textAlignment="1"
+      content="Zie de plaat met dezelfde naam in de repository Informatievoorziening">
+    <bounds
+        x="79"
+        y="39"
+        width="185"
+        height="80"/>
+  </children>
+</archimate:ArchimateDiagramModel>
