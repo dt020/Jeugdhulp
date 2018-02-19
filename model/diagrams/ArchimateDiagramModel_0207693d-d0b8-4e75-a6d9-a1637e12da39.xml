@@ -767,16 +767,6 @@
         href="BusinessFunction_e5aa4a2f.xml#e5aa4a2f"/>
   </children>
   <children
-      xsi:type="archimate:DiagramModelNote"
-      id="36a04a6a-b9a3-4b98-8e73-673677bb19c6"
-      textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Verantwoordelijkheden mbt jeugdhulp vs applicaties&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180202">
-    <bounds
-        y="702"
-        width="289"
-        height="85"/>
-  </children>
-  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="b5f5bb00-190e-4267-a408-73dc81640c62">
     <sourceConnections
