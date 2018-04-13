@@ -471,12 +471,12 @@
       xsi:type="archimate:DiagramModelNote"
       id="6b442619-5922-46fd-a37a-0715336a9988"
       textAlignment="1"
-      content="Mbt jeugdgezondheidszorg, jeugd- en opvoedhulp, JGGZ, J-(L)VB en welzijn">
+      content="Mbt jeugdgezondheidszorg, jeugd- en opvoedhulp, JGGZ, J-(L)VB en welzijn&#xD;&#xA;In de wijken en op scholen 27 Ouder- en Kind teams&#xD;&#xA;Met in totaal zo'n 300fte&#xD;&#xA;Gedetacheerd vanuit de instellingen, en Jeugdartsen en -verpleegkundigen vanuit de GGD&#xD;&#xA;Detachering wordt betaald door de gemeente, 25M aan de instellingen en 25M aan de GGD">
     <bounds
         x="639"
         y="384"
-        width="201"
-        height="55"/>
+        width="370"
+        height="73"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelNote"
@@ -516,7 +516,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="1e3cccb8-9587-405b-9330-042194474c3a"
       textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugd&#xD;&#xA;Organisatie en verantwoordelijkheden&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180208">
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugd&#xD;&#xA;Organisatie en verantwoordelijkheden&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180413">
     <bounds
         x="791"
         y="24"

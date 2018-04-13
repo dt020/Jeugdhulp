@@ -549,11 +549,22 @@
       xsi:type="archimate:DiagramModelNote"
       id="ba557b3d-5b5d-45cd-93ab-ff61cab3e8d1"
       textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Verantwoordelijkheden, processen, producten&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180212">
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Verantwoordelijkheden, processen, producten&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180413">
     <bounds
         x="852"
         y="24"
         width="145"
         height="109"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="d9f4924a-5db1-466e-bb4c-c984e55b16a6"
+      textAlignment="1"
+      content="Budget 2017: 263M&#xD;&#xA;185M van de landelijke overheid&#xD;&#xA;80M vanuit de gemeente zelf&#xD;&#xA;">
+    <bounds
+        x="24"
+        y="204"
+        width="185"
+        height="59"/>
   </children>
 </archimate:ArchimateDiagramModel>

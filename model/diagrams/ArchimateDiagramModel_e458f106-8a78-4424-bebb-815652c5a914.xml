@@ -5,6 +5,17 @@
     id="e458f106-8a78-4424-bebb-815652c5a914"
     documentation="Wat is er gemeentelijk ingekocht en wat regionaal?">
   <children
+      xsi:type="archimate:DiagramModelNote"
+      id="12c5ec7a-dc51-413f-8093-72536f9a0629"
+      textAlignment="1"
+      content="Gesubsidieerd door de Stadsdelen, voor zo'n 14M&#xD;&#xA;+ 9M vanuit centraal stedelijk">
+    <bounds
+        x="207"
+        y="60"
+        width="155"
+        height="55"/>
+  </children>
+  <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="2165aa18-42ed-4bed-b726-88daf614ce8a"
       targetConnections="731659cb-6119-4ed4-ac42-688e2c46d82e"
@@ -73,7 +84,7 @@
           href="AggregationRelationship_5f2a031d-21d4-4825-8ea4-5fe53019f2a6.xml#5f2a031d-21d4-4825-8ea4-5fe53019f2a6"/>
     </sourceConnections>
     <bounds
-        x="108"
+        x="60"
         y="12"
         width="139"
         height="481"/>
@@ -172,8 +183,8 @@
           href="AssociationRelationship_58aa6196-d097-44e3-86a1-836812b8d3d8.xml#58aa6196-d097-44e3-86a1-836812b8d3d8"/>
     </sourceConnections>
     <bounds
-        x="267"
-        y="84"
+        x="279"
+        y="132"
         width="202"
         height="55"/>
     <archimateElement
@@ -336,8 +347,8 @@
           href="AssociationRelationship_9ba92428-f4e0-48ee-b5de-c8d7f71a37d3.xml#9ba92428-f4e0-48ee-b5de-c8d7f71a37d3"/>
     </sourceConnections>
     <bounds
-        x="409"
-        y="156"
+        x="361"
+        y="240"
         width="120"
         height="55"/>
     <archimateElement
@@ -360,7 +371,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="dfa9d77a-9895-4001-86b3-237cb8ac62fd"
       textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Voorzieningen aanbod&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180308">
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Voorzieningen aanbod&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180413">
     <bounds
         x="720"
         y="12"
@@ -392,5 +403,27 @@
     <archimateElement
         xsi:type="archimate:Product"
         href="Product_829bf547-961f-417e-8714-7c7305fa3423.xml#829bf547-961f-417e-8714-7c7305fa3423"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="30af54cf-27df-4ca6-9a16-0c7d08dc22a7"
+      textAlignment="1"
+      content="Ongeveer 8M per jaar&#xD;&#xA;">
+    <bounds
+        x="207"
+        y="205"
+        width="61"
+        height="55"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="af761942-3778-492d-8762-07d111ee46ac"
+      textAlignment="1"
+      content="Gecontracteerd zijn zo'n 150 instellingen die niet-duurzame trajecten doen&#xD;&#xA;En 32 instellingen die ingewikkelde en/of duurzame trajecten doen">
+    <bounds
+        x="552"
+        y="420"
+        width="301"
+        height="73"/>
   </children>
 </archimate:ArchimateDiagramModel>
