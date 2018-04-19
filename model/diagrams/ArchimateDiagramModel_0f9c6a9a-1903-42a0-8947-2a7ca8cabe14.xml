@@ -383,11 +383,20 @@
           xsi:type="archimate:AggregationRelationship"
           href="AggregationRelationship_c8250b06-c549-455f-bba6-6fcd3fe4b223.xml#c8250b06-c549-455f-bba6-6fcd3fe4b223"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="f76500cd-f1c0-423c-9c62-1aa5d62086ed"
+        source="6c3898c0-c0ed-428e-87aa-42a004792367"
+        target="fdcbb1e3-84f7-463d-b3ad-b9c1b29f9a7b">
+      <archimateRelationship
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_aee6e366-dfc4-4c05-9404-3a6ea6e422e2.xml#aee6e366-dfc4-4c05-9404-3a6ea6e422e2"/>
+    </sourceConnections>
     <bounds
         x="528"
         y="24"
         width="142"
-        height="169"/>
+        height="229"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="aacf6197-93e0-4815-84fa-5b54e6e1b019"
@@ -413,6 +422,19 @@
       <archimateElement
           xsi:type="archimate:BusinessProcess"
           href="BusinessProcess_fa5a76de-5e09-435f-995c-5483539b5f3f.xml#fa5a76de-5e09-435f-995c-5483539b5f3f"/>
+    </children>
+    <children
+        xsi:type="archimate:DiagramModelArchimateObject"
+        id="fdcbb1e3-84f7-463d-b3ad-b9c1b29f9a7b"
+        targetConnections="f76500cd-f1c0-423c-9c62-1aa5d62086ed">
+      <bounds
+          x="12"
+          y="168"
+          width="120"
+          height="55"/>
+      <archimateElement
+          xsi:type="archimate:BusinessProcess"
+          href="BusinessProcess_5c00638c-f7a5-4374-b465-e26dd56c240e.xml#5c00638c-f7a5-4374-b465-e26dd56c240e"/>
     </children>
     <archimateElement
         xsi:type="archimate:BusinessFunction"
@@ -549,7 +571,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="ba557b3d-5b5d-45cd-93ab-ff61cab3e8d1"
       textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Verantwoordelijkheden, processen, producten&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180413">
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Verantwoordelijkheden, processen, producten&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180416">
     <bounds
         x="852"
         y="24"

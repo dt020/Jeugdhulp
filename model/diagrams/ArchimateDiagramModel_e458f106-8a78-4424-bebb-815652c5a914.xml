@@ -12,7 +12,7 @@
     <bounds
         x="207"
         y="60"
-        width="155"
+        width="166"
         height="55"/>
   </children>
   <children
@@ -371,7 +371,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="dfa9d77a-9895-4001-86b3-237cb8ac62fd"
       textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Voorzieningen aanbod&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180413">
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Voorzieningen aanbod&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180416">
     <bounds
         x="720"
         y="12"
