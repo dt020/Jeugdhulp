@@ -1,9 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Voorzieningen aanbod volgens Verordening huidige situatie 2018"
+    name="Voorzieningen aanbod huidige situatie 2018"
     id="e458f106-8a78-4424-bebb-815652c5a914"
-    documentation="Wat is er gemeentelijk ingekocht en wat regionaal?">
+    documentation="Gebaseerd op de Verordening 2018&#xD;&#xA;Maar ook op input vanuit het MT&#xD;&#xA;">
   <children
       xsi:type="archimate:DiagramModelNote"
       id="12c5ec7a-dc51-413f-8093-72536f9a0629"
@@ -256,15 +256,6 @@
     </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="b263ea6e-3dec-40eb-afa1-bd1b7ec2e857"
-        source="13c02d9e-cdbf-4274-8f4e-f34c63511f91"
-        target="b5fcdbe3-1e09-42fc-8104-555eb400c774">
-      <archimateRelationship
-          xsi:type="archimate:CompositionRelationship"
-          href="CompositionRelationship_9b2f5325-d216-4bfc-91c8-4a65c025d6d8.xml#9b2f5325-d216-4bfc-91c8-4a65c025d6d8"/>
-    </sourceConnections>
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
         id="7365feb1-81ce-4180-a564-2833cfc560b6"
         source="13c02d9e-cdbf-4274-8f4e-f34c63511f91"
         target="130dffd3-3788-4a33-aff3-38b0ee61b4bc">
@@ -282,6 +273,15 @@
         id="d070c757-44ac-4c01-9048-55e6ef2b42df"
         targetConnections="f559c027-fc75-4afd-8bd3-c8d3bacebfde"
         fillColor="#b1fcdb">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="1d378ec0-7c6b-4bf8-9cbc-3e6b698b6ace"
+          source="d070c757-44ac-4c01-9048-55e6ef2b42df"
+          target="b5fcdbe3-1e09-42fc-8104-555eb400c774">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_80a09f41-fce9-41d3-a326-ab7cd0156515.xml#80a09f41-fce9-41d3-a326-ab7cd0156515"/>
+      </sourceConnections>
       <bounds
           x="12"
           y="48"
@@ -295,6 +295,15 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="86ce8f69-066c-4bda-b4d8-75185ea50b9c"
         targetConnections="bf1da519-bda4-49e0-8188-f8c46420752d">
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="036f25bf-4df3-4da5-bdde-4bd3cc492c69"
+          source="86ce8f69-066c-4bda-b4d8-75185ea50b9c"
+          target="b5fcdbe3-1e09-42fc-8104-555eb400c774">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_f346b38f-7bff-49a4-bd00-3c924631572f.xml#f346b38f-7bff-49a4-bd00-3c924631572f"/>
+      </sourceConnections>
       <bounds
           x="12"
           y="120"
@@ -371,7 +380,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="dfa9d77a-9895-4001-86b3-237cb8ac62fd"
       textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Voorzieningen aanbod&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180416">
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Voorzieningen aanbod&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180514">
     <bounds
         x="720"
         y="12"
@@ -381,10 +390,10 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="b5fcdbe3-1e09-42fc-8104-555eb400c774"
-      targetConnections="b263ea6e-3dec-40eb-afa1-bd1b7ec2e857">
+      targetConnections="036f25bf-4df3-4da5-bdde-4bd3cc492c69 1d378ec0-7c6b-4bf8-9cbc-3e6b698b6ace">
     <bounds
         x="733"
-        y="204"
+        y="108"
         width="120"
         height="55"/>
     <archimateElement
@@ -397,7 +406,7 @@
       targetConnections="7365feb1-81ce-4180-a564-2833cfc560b6">
     <bounds
         x="733"
-        y="132"
+        y="180"
         width="120"
         height="55"/>
     <archimateElement
@@ -419,11 +428,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="af761942-3778-492d-8762-07d111ee46ac"
       textAlignment="1"
-      content="Gecontracteerd zijn zo'n 150 instellingen die niet-duurzame trajecten doen&#xD;&#xA;En 32 instellingen die ingewikkelde en/of duurzame trajecten doen">
+      content="Voor (hoog-)specialistische jeugdhulp zijn zo'n 200 instellingen gecontracteerd voor niet-duurzame trajecten (segment B).&#xD;&#xA;En ongeveer 35 instellingen voor complexe en/of duurzame trajecten (segment C).">
     <bounds
-        x="552"
+        x="504"
         y="420"
-        width="301"
+        width="349"
         height="73"/>
   </children>
 </archimate:ArchimateDiagramModel>
