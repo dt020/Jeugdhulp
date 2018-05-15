@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Journaalposten XML"
+    id="0677d37e-c688-4f96-9574-ab86aecee67e">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_b3a37782.xml#b3a37782"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_47709fbf-fb51-40d0-8e1f-55395c592359.xml#47709fbf-fb51-40d0-8e1f-55395c592359"/>
+</archimate:FlowRelationship>

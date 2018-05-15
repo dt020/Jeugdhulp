@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Toekenning-bestanden"
+    id="8b477020-da35-42db-9c08-d50da03c75a1">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_2d8a76b1.xml#2d8a76b1"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_b3a37782.xml#b3a37782"/>
+</archimate:FlowRelationship>

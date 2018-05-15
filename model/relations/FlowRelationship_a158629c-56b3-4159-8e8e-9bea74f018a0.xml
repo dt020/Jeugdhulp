@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="iJW zips"
+    id="a158629c-56b3-4159-8e8e-9bea74f018a0">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_969d0710-1bee-47bc-8455-25e89e6980f9.xml#969d0710-1bee-47bc-8455-25e89e6980f9"/>
+  <target
+      xsi:type="archimate:BusinessActor"
+      href="BusinessActor_de80c4d8.xml#de80c4d8"/>
+</archimate:FlowRelationship>

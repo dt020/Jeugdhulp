@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="iJW StUF"
+    id="5b32fcfa-3530-49c0-ae9f-67d10fbf965f">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_b3a37782.xml#b3a37782"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_66f36a23.xml#66f36a23"/>
+</archimate:FlowRelationship>
