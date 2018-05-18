@@ -1,9 +1,9 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Regionaal Administratie Platform Plateau 3"
+    name="Regionaal Administratie Platform Plateau 3 (Achterhaald)"
     id="8bfb3ee1-d897-4cb6-87b7-82a55f756868"
-    documentation="In overleg met JdK 09-02-2018">
+    documentation="In overleg met JdK 09-02-2018&#xD;&#xA;Achterhaald en niet meer relevant volgens JAdlP 20180518">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="0dbe115c-17f9-4e29-b5c0-6c932c5d9e21"

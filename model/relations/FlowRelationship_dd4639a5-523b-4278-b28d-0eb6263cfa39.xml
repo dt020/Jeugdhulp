@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Notificaties mbt Jeugdreclassering"
+    id="dd4639a5-523b-4278-b28d-0eb6263cfa39">
+  <source
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_3a7084ab-c046-43f0-8359-2f28b1d2216f.xml#3a7084ab-c046-43f0-8359-2f28b1d2216f"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_b3a37782.xml#b3a37782"/>
+</archimate:FlowRelationship>

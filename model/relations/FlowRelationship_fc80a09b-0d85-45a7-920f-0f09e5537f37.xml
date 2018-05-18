@@ -1,12 +1,12 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Handmatig"
-    id="09a2abfd-2a09-4bd3-be4f-e27860c981a7">
+    name="Dagelijkse export"
+    id="fc80a09b-0d85-45a7-920f-0f09e5537f37">
   <source
       xsi:type="archimate:ApplicationComponent"
       href="ApplicationComponent_5b170beb-9519-477a-a6fd-67d152e704e2.xml#5b170beb-9519-477a-a6fd-67d152e704e2"/>
   <target
       xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_b721e1c7-4398-4075-bc3a-f6ce13f71ab2.xml#b721e1c7-4398-4075-bc3a-f6ce13f71ab2"/>
+      href="ApplicationComponent_f9e1d1a3.xml#f9e1d1a3"/>
 </archimate:FlowRelationship>

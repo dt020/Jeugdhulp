@@ -1,0 +1,5 @@
+<archimate:ApplicationComponent
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Collectieve Opdrachten Routeer Voorziening (CORV)"
+    id="3a7084ab-c046-43f0-8359-2f28b1d2216f"
+    documentation="Volgens https://vng.nl/corv: &quot;De Collectieve Opdracht Routeer Voorziening (CORV) is een digitaal knooppunt dat via berichtuitwisseling zorgt voor een elektronische afhandeling van het formele berichtenverkeer tussen justitiële partijen en het gemeentelijke domein.&quot;"/>

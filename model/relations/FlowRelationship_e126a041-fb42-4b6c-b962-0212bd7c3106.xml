@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Zorgmeldingen"
+    id="e126a041-fb42-4b6c-b962-0212bd7c3106">
+  <source
+      xsi:type="archimate:BusinessActor"
+      href="BusinessActor_87121ba5-96e1-482a-82b6-e36ab7aa8d03.xml#87121ba5-96e1-482a-82b6-e36ab7aa8d03"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_3a7084ab-c046-43f0-8359-2f28b1d2216f.xml#3a7084ab-c046-43f0-8359-2f28b1d2216f"/>
+</archimate:FlowRelationship>

@@ -1,0 +1,12 @@
+<archimate:FlowRelationship
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="Verzoek tot Onderzoek (VTO)"
+    id="6a862e77-14a3-466c-9506-099cf836185c">
+  <source
+      xsi:type="archimate:BusinessRole"
+      href="BusinessRole_de37a881.xml#de37a881"/>
+  <target
+      xsi:type="archimate:ApplicationComponent"
+      href="ApplicationComponent_3a7084ab-c046-43f0-8359-2f28b1d2216f.xml#3a7084ab-c046-43f0-8359-2f28b1d2216f"/>
+</archimate:FlowRelationship>

@@ -1,13 +1,13 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Regionaal Administratie Platform Plateau 2"
+    name="Regionaal Administratie Platform Doorontwikkeling"
     id="f63c27ec-e39c-449a-a2d4-1dae495fd6e3"
-    documentation="In overleg met JdK 09-02-2018">
+    documentation="In overleg met JdK 09-02-2018&#xD;&#xA;Afgestemd met JAdlP 20180518">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="2855a4ec-3a15-43c8-9f19-501f919cb347"
-      targetConnections="b7aa5cb1-8c45-478f-8c07-f53e9ca0c343 361f0592-4baf-4e6c-b0ae-2fbff78497dd 8aaaad8c-8f21-48a8-811a-51111184472d"
+      targetConnections="b7aa5cb1-8c45-478f-8c07-f53e9ca0c343 8aaaad8c-8f21-48a8-811a-51111184472d"
       fillColor="#8affff">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
@@ -54,16 +54,25 @@
           xsi:type="archimate:RealizationRelationship"
           href="RealizationRelationship_698cdd9d-df0a-480b-aa5a-7a4891e138f4.xml#698cdd9d-df0a-480b-aa5a-7a4891e138f4"/>
     </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="b032454a-5b20-4c08-a536-eaf4ef73bd31"
+        source="2855a4ec-3a15-43c8-9f19-501f919cb347"
+        target="ebefb664-c494-4be6-a3e0-3d41f57e24e3">
+      <archimateRelationship
+          xsi:type="archimate:FlowRelationship"
+          href="FlowRelationship_fc80a09b-0d85-45a7-920f-0f09e5537f37.xml#fc80a09b-0d85-45a7-920f-0f09e5537f37"/>
+    </sourceConnections>
     <bounds
-        x="136"
+        x="192"
         y="210"
-        width="421"
+        width="313"
         height="163"/>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
         id="a759fadd-de0f-477f-9855-785869af4584">
       <bounds
-          x="24"
+          x="36"
           y="24"
           width="120"
           height="55"/>
@@ -75,7 +84,7 @@
         xsi:type="archimate:DiagramModelArchimateObject"
         id="a61fb5dc-1da3-4a15-9ae8-e958048c8fbf">
       <bounds
-          x="156"
+          x="168"
           y="24"
           width="120"
           height="55"/>
@@ -88,8 +97,8 @@
         id="69c8d5ce-dd79-4031-81a8-1bab9a487749"
         fontColor="#ff0000">
       <bounds
-          x="288"
-          y="24"
+          x="36"
+          y="96"
           width="120"
           height="55"/>
       <archimateElement
@@ -98,23 +107,10 @@
     </children>
     <children
         xsi:type="archimate:DiagramModelArchimateObject"
-        id="95696866-c1a9-4656-af41-0b15fd4d8a93"
-        fontColor="#ff0000">
-      <bounds
-          x="84"
-          y="96"
-          width="120"
-          height="55"/>
-      <archimateElement
-          xsi:type="archimate:DataObject"
-          href="DataObject_de18881f-394d-4bcc-a815-d422b7c10dec.xml#de18881f-394d-4bcc-a815-d422b7c10dec"/>
-    </children>
-    <children
-        xsi:type="archimate:DiagramModelArchimateObject"
         id="bf5cc999-0e65-4c47-a7f3-2dea8992c1de"
         fontColor="#ff0000">
       <bounds
-          x="228"
+          x="168"
           y="96"
           width="120"
           height="55"/>
@@ -238,30 +234,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="ed989b31-c412-4130-a453-90a62c82eab9"
-      targetConnections="dfb70e53-fcb0-4f63-b25d-91a4636db2cb">
-    <bounds
-        x="216"
-        y="24"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessActor"
-        href="BusinessActor_54de61d4-4870-4412-8515-e6685a2d9cfa.xml#54de61d4-4870-4412-8515-e6685a2d9cfa"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="ed4d32a8-7329-45c3-8b2a-5169eb4fa9fc"
       targetConnections="10ac05fb-4aa5-4206-a191-380786c56834">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="dfb70e53-fcb0-4f63-b25d-91a4636db2cb"
-        source="ed4d32a8-7329-45c3-8b2a-5169eb4fa9fc"
-        target="ed989b31-c412-4130-a453-90a62c82eab9">
-      <archimateRelationship
-          xsi:type="archimate:ServingRelationship"
-          href="ServingRelationship_0648461f-b037-44a9-95b8-d2f9d8455807.xml#0648461f-b037-44a9-95b8-d2f9d8455807"/>
-    </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="eab433c7-cbe9-4b63-a185-bad23d171314"
@@ -285,7 +259,7 @@
       id="2cb809bb-fae1-4543-ba1f-800dbf9def46"
       targetConnections="eab433c7-cbe9-4b63-a185-bad23d171314">
     <bounds
-        x="350"
+        x="216"
         y="24"
         width="120"
         height="55"/>
@@ -352,7 +326,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="ebefb664-c494-4be6-a3e0-3d41f57e24e3">
+      id="ebefb664-c494-4be6-a3e0-3d41f57e24e3"
+      targetConnections="b032454a-5b20-4c08-a536-eaf4ef73bd31">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="2ca50ac3-cc21-415a-8be8-9c4dcdc69a5b"
@@ -416,7 +391,7 @@
       id="3c9be585-de3f-4c02-9819-36acd9552a1a"
       targetConnections="774fff9b-c10d-4d3c-9d8a-234574992c18 466b0b23-3816-4676-ad69-cc16d97e6f3a">
     <bounds
-        x="482"
+        x="420"
         y="24"
         width="120"
         height="55"/>
@@ -428,7 +403,7 @@
       xsi:type="archimate:DiagramModelNote"
       id="70be68b0-e9e4-45ed-b6cf-a1e2a6646833"
       textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugd&#xD;&#xA;Regionaal Administratie Platform&#xD;&#xA;Plan voor Plateau 2&#xD;&#xA;Versie 20180223">
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Regionaal Administratie Platform&#xD;&#xA;Doorontwikkeling 2018&#xD;&#xA;Versie 20180518">
     <bounds
         x="708"
         y="24"
@@ -462,15 +437,6 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="44a4729c-0717-49ee-ab5b-f3a9e7f09ff9"
       fontColor="#ff0000">
-    <sourceConnections
-        xsi:type="archimate:DiagramModelArchimateConnection"
-        id="361f0592-4baf-4e6c-b0ae-2fbff78497dd"
-        source="44a4729c-0717-49ee-ab5b-f3a9e7f09ff9"
-        target="2855a4ec-3a15-43c8-9f19-501f919cb347">
-      <archimateRelationship
-          xsi:type="archimate:FlowRelationship"
-          href="FlowRelationship_714dc012-1753-492d-88e2-308e458a2859.xml#714dc012-1753-492d-88e2-308e458a2859"/>
-    </sourceConnections>
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="b522a36e-4446-4ed5-af1f-ecb90b94ab86"

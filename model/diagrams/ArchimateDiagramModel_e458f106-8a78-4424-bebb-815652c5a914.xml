@@ -380,11 +380,11 @@
       xsi:type="archimate:DiagramModelNote"
       id="dfa9d77a-9895-4001-86b3-237cb8ac62fd"
       textAlignment="1"
-      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Voorzieningen aanbod&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180514">
+      content="Gemeente Amsterdam&#xD;&#xA;Domein Jeugdhulp&#xD;&#xA;Voorzieningen aanbod&#xD;&#xA;Huidige situatie 2018&#xD;&#xA;Versie 20180518">
     <bounds
         x="720"
         y="12"
-        width="133"
+        width="145"
         height="85"/>
   </children>
   <children
@@ -394,7 +394,7 @@
     <bounds
         x="733"
         y="108"
-        width="120"
+        width="132"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Product"
@@ -407,7 +407,7 @@
     <bounds
         x="733"
         y="180"
-        width="120"
+        width="132"
         height="55"/>
     <archimateElement
         xsi:type="archimate:Product"
@@ -428,11 +428,22 @@
       xsi:type="archimate:DiagramModelNote"
       id="af761942-3778-492d-8762-07d111ee46ac"
       textAlignment="1"
-      content="Voor (hoog-)specialistische jeugdhulp zijn zo'n 200 instellingen gecontracteerd voor niet-duurzame trajecten (segment B).&#xD;&#xA;En ongeveer 35 instellingen voor complexe en/of duurzame trajecten (segment C).">
+      content="Voor (hoog-)specialistische jeugdhulp zijn zo'n 200 instellingen gecontracteerd voor niet-duurzame trajecten (segment B). En ongeveer 35 instellingen voor complexe en/of duurzame trajecten (segment C).">
     <bounds
-        x="504"
-        y="420"
-        width="349"
-        height="73"/>
+        x="432"
+        y="432"
+        width="433"
+        height="61"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="7b5216e7-42ea-4f7a-8678-04317c012264"
+      textAlignment="1"
+      content="Ongeveer 400 jeugdigen, ihkv dwang en drang, 80 aanbieders, 9M aan budget">
+    <bounds
+        x="696"
+        y="360"
+        width="169"
+        height="55"/>
   </children>
 </archimate:ArchimateDiagramModel>

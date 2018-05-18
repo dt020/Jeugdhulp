@@ -1,12 +1,12 @@
 <archimate:FlowRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="SEPA Betaalbestanden"
-    id="8d223c66-30ba-48e8-ac6b-f1a77c4d85f2">
+    name="SEPA betaalbestanden"
+    id="78fe3160-c6bd-4c93-a9c4-5620932dfdba">
   <source
-      xsi:type="archimate:ApplicationComponent"
-      href="ApplicationComponent_b3a37782.xml#b3a37782"/>
-  <target
       xsi:type="archimate:BusinessActor"
       href="BusinessActor_70563ff7-3eda-4717-a523-2760f936d9d4.xml#70563ff7-3eda-4717-a523-2760f936d9d4"/>
+  <target
+      xsi:type="archimate:BusinessActor"
+      href="BusinessActor_3c3d6bc0-e48c-4fcd-b7c3-38345f8aa0dd.xml#3c3d6bc0-e48c-4fcd-b7c3-38345f8aa0dd"/>
 </archimate:FlowRelationship>
